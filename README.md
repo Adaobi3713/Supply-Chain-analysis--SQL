@@ -53,24 +53,32 @@ The dataset contains information on:
 ✔ Aggregate filtering
 
 ### 💻 Sample Queries
-🔹 Total Revenue
+
+#### 🔹 Total Revenue
+
 SELECT 
     SUM(Revenue) AS Total_Revenue
 FROM supply_chain_data;
-🔹 Products Sold by Category
+
+#### 🔹 Products Sold by Category
+
 SELECT 
     Product_Type,
     SUM(Number_of_Products_Sold) AS Total_Products_Sold
 FROM supply_chain_data
 GROUP BY Product_Type
 ORDER BY Total_Products_Sold DESC;
-🔹 Average Revenue per Product Type
+
+#### 🔹 Average Revenue per Product Type
+
 SELECT 
     Product_Type,
     ROUND(AVG(Revenue), 2) AS Avg_Revenue
 FROM supply_chain_data
 GROUP BY Product_Type;
-🔹 Supplier Performance Analysis
+
+#### 🔹 Supplier Performance Analysis
+
 SELECT 
     Supplier_Name,
     SUM(Revenue) AS Supplier_Revenue,
@@ -78,6 +86,7 @@ SELECT
 FROM supply_chain_data
 GROUP BY Supplier_Name
 ORDER BY Supplier_Revenue DESC;
+
 ### 📊 Key Insights
 
 ✔ Identified top revenue-generating product categories.
