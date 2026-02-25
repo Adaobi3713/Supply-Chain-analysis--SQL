@@ -106,7 +106,12 @@ ORDER BY Supplier_Revenue DESC;
 ✔ How SQL can answer real business questions
 
 ✔ Translating raw data into strategic insights
-<img width="1366" height="768" alt="SQL1" src="https://github.com/user-attachments/assets/21864a30-8a5a-48f1-9bf2-8d40f018a310" />
+
+### Visual screenshot
+
 <img width="1366" height="768" alt="SQL2" src="https://github.com/user-attachments/assets/53e07b36-2c86-4a2c-a474-6472cdbef38d" />
+
 <img width="1366" height="768" alt="SQL3" src="https://github.com/user-attachments/assets/fad17c4a-2ef6-4e2a-9a1f-054e71461e3c" />
+
+<img width="1366" height="768" alt="SQL1" src="https://github.com/user-attachments/assets/21864a30-8a5a-48f1-9bf2-8d40f018a310" />
 
